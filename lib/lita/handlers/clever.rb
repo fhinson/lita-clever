@@ -13,7 +13,7 @@ module Lita
 
       def clever(response)
         bot = CleverBot.new
-        response.reply bot.think response.matches[0][0]
+        response.reply (bot.think "hello")
       end
     end
 
