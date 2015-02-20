@@ -1,4 +1,5 @@
 require 'lita'
+require 'cleverbot-api'
 
 module Lita
   module Handlers
@@ -11,7 +12,8 @@ module Lita
       end
 
       def clever(response)
-        response.reply response.matches[0][0]
+        bot = CleverBot.new
+        response.reply bot.think response.matches[0][0]
       end
     end
 
