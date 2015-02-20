@@ -11,8 +11,7 @@ module Lita
       end
 
       def clever(response)
-        f = 'test'
-        response.reply f
+        response.reply response
       end
     end
 
