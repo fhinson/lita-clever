@@ -11,7 +11,7 @@ module Lita
       end
 
       def clever(response)
-        response.reply response
+        response.reply response.matches[0][0]
       end
     end
 
