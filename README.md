@@ -17,7 +17,8 @@ No Configuration.
 ## Usage
 
 ```
-Lita: lita clever
+Lita: lita clever hello
+> Hello
 ```
 
 ## License
