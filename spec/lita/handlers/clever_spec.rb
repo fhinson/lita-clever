@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Lita::Handlers::Clever, lita_handler: true do
-  it {is_expected.to route_command("test").to(:test) }
+  it {is_expected.to route_command("test").to(:clever) }
 
   describe 'test' do
     it "replies to a 'test' command" do
