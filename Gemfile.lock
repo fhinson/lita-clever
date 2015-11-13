@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    lita-clever (0.0.2)
+    lita-clever (0.0.3)
       clever-api (>= 0.0.2)
       lita (>= 2.0)
       lita-exclusive-route
